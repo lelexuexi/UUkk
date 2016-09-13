@@ -13,6 +13,7 @@
 		11F441741D87C1CA00EC7459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F441721D87C1CA00EC7459 /* Main.storyboard */; };
 		11F441761D87C1CA00EC7459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F441751D87C1CA00EC7459 /* Assets.xcassets */; };
 		11F441791D87C1CA00EC7459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F441771D87C1CA00EC7459 /* LaunchScreen.storyboard */; };
+		11F441821D87C1DF00EC7459 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F441811D87C1DF00EC7459 /* LoginVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		11F441751D87C1CA00EC7459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F441781D87C1CA00EC7459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F4417A1D87C1CA00EC7459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F441801D87C1DF00EC7459 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		11F441811D87C1DF00EC7459 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		11F441681D87C1CA00EC7459 /* UUkk */ = {
 			isa = PBXGroup;
 			children = (
+				11F441801D87C1DF00EC7459 /* LoginVC.h */,
+				11F441811D87C1DF00EC7459 /* LoginVC.m */,
 				11F4416C1D87C1CA00EC7459 /* AppDelegate.h */,
 				11F4416D1D87C1CA00EC7459 /* AppDelegate.m */,
 				11F4416F1D87C1CA00EC7459 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				11F441711D87C1CA00EC7459 /* ViewController.m in Sources */,
 				11F4416E1D87C1CA00EC7459 /* AppDelegate.m in Sources */,
+				11F441821D87C1DF00EC7459 /* LoginVC.m in Sources */,
 				11F4416B1D87C1CA00EC7459 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
